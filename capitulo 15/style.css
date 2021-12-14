@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+    font-size: 2em;
+}
+
+h2 {
+    color: rgb(15, 167, 15);
+}
+
+#titulo-principal {
+    background-color:greenyellow;
+}
+
+.topico {
+    text-align: right;
+}
+
+.descri {
+    text-align: justify;
+}
+

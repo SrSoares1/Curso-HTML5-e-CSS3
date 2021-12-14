@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap');
+
+body {
+    background-color: #84E1AD;
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom ,#3BD37F ,#0b381f);
+    text-align: center;
+    padding: 10px;
+    margin-top: 0%;
+    color: white;
+}
+
+header > h1 {
+    font-family: 'Big Shoulders Text', cursive;
+    text-shadow: 2px 3px 2px black;
+    font-size: 2em;
+
+}
+
+header > p {
+    text-justify: auto;
+    padding-bottom: 40px;
+    font-weight:lighter ;
+    text-shadow: 1px 2px 3px black;;
+}
+
+nav {
+    text-align: left;
+    font-weight:bolder;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+nav > a:hover {
+    background-color: rgba(255, 255, 255, 0.473);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main { 
+    background-color: white;
+    width: 510px;
+    margin:auto;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0px 1px 13px 1px #0000006e;
+}
+
+section > h1, h2 {
+   font-family: 'Press Start 2P' ; 
+   color: rgb(6, 112, 50);
+   
+}
+
+section > h2 {
+    background-image: linear-gradient(to right, #A9D3BC, white);
+    color: rgb(6, 112, 50);
+    font-size: 1em;
+    padding: 5px;
+}
+
+#more {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#more > h3 {
+    background-color: #2FA866;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+
+#more > p {
+    padding: 10px;
+} 
+
+#more ul {
+    list-style: none;
+}
+    
+#more ul li:before {
+    content: '✓ ';
+}
+
+.logo > img { 
+    margin: auto;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0%;
+    padding: 0%;
+}
+
